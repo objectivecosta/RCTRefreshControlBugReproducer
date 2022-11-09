@@ -1,0 +1,36 @@
+{
+  "configurations": [
+      {
+          "name": "Run iOS Hermes - Experimental",
+          "request": "launch",
+          "type": "reactnativedirect",
+          "cwd": "${workspaceFolder}",
+          "enableDebug": false,
+          "platform": "ios"
+      },
+      {
+          "name": "Debug iOS Hermes - iPhone 14 Pro Max",
+          "request": "launch",
+          "type": "reactnativedirect",
+          "cwd": "${workspaceFolder}",
+          "platform": "ios",
+          "target": "iPhone 14 Pro Max"
+      },
+      {
+          "name": "Debug iOS Hermes - iPhone 13 Pro Max",
+          "request": "launch",
+          "type": "reactnativedirect",
+          "cwd": "${workspaceFolder}",
+          "platform": "ios",
+          "target": "iPhone 13 Pro Max"
+      },
+      {
+          "name": "Debug iOS Hermes - iPhone 8",
+          "request": "launch",
+          "type": "reactnativedirect",
+          "cwd": "${workspaceFolder}",
+          "platform": "ios",
+          "target": "iPhone 8"
+      },
+  ]
+}
